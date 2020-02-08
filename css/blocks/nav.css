@@ -1,0 +1,100 @@
+.nav__item {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.nav__link {
+    font-size: 12px;
+    color: #ca2376;
+    text-transform: uppercase;
+    line-height: 4.5;
+    position: relative;
+    transition: .3s all;
+}
+
+.nav__link:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #bbbbbb;
+    bottom: -3px;
+    transition: .3s all;
+    right: 0;
+    left: 0;
+}
+
+.nav__link:hover:after {
+    width: 100%;
+}
+
+.nav__link:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -40px;
+    transition: .3s all;
+}
+
+.nav__link--main:before {
+    background-image: url("../../images/icon/main_icon2.png");
+    width: 19px;
+    height: 19px;
+}
+
+.nav__link--main:hover:before {
+    background-image: url("../../images/icon/main_icon.png");
+    width: 19px;
+    height: 19px;
+}
+
+.nav__link:hover {
+    color: black;
+}
+
+.nav__link--feed:before {
+    background-image: url('../../images/icon/feed_icon.png');
+    width: 22px;
+    height: 20px;
+}
+
+.nav__link--feed:hover:before {
+    background-image: url('../../images/icon/feed.png');
+}
+
+.nav__link--wallet:before {
+    background-image: url("../../images/icon/wallet_icon.png");
+    width: 24px;
+    height: 20px;
+}
+
+.nav__link--wallet:hover:before {
+    background-image: url("../../images/icon/wallet.png");
+}
+
+.nav__item--active .nav__link {
+    color: #000000;
+}
+
+.nav__item--active .nav__link:after {
+    width: 100%;
+}
+
+.nav__item--active .nav__link--main:before {
+    background-image: url("../../images/icon/main_icon.png");
+}
+
+.nav__item--active .nav__link--feed:before {
+    background-image: url('../../images/icon/feed.png');
+}
+
+.nav__item--active .nav__link--wallet:before {
+    background-image: url("../../images/icon/wallet.png");
+}

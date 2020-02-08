@@ -1,0 +1,38 @@
+.partners {
+    padding: 14px 0px 42px;
+}
+
+.partners__block {
+    width: 96%;
+    padding: 36px 0 0;
+}
+
+
+.partners__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0 0;
+}
+
+.partners__item {
+    width: 33.3333%;
+    padding-bottom: 36px;
+}
+
+.partners__list:first-child {
+    margin: 0;
+}
+
+.partners__icon:nth-child(5) {
+    margin-right: 40px;
+}
+
+.partners__img {
+    filter: grayscale(1);
+}
+
+.partners__img:hover {
+    filter: grayscale(0);
+}

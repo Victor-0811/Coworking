@@ -1,0 +1,27 @@
+@import url("./layout/fonts.css");
+@import url("./layout/normalize.css");
+@import url("./layout/base.css");
+
+/*blocks*/
+
+@import url("./blocks/container.css");
+@import url("./blocks/header.css");
+@import url("./blocks/main__logo.css");
+@import url("./blocks/contacts.css");
+@import url("./blocks/content.css");
+@import url("./blocks/sidebar.css");
+@import url("./blocks/nav.css");
+@import url("./blocks/container-right.css");
+@import url("./blocks/features.css");
+@import url("./blocks/block-list.css");
+@import url("./blocks/news.css");
+@import url("./blocks/content-list.css");
+@import url("./blocks/pagination.css");
+@import url("./blocks/footer.css");
+@import url("./blocks/socials.css");
+@import url("./blocks/breadcrumbs.css");
+@import url("./blocks/partners.css");
+@import url("./blocks/schedule.css");
+@import url("./blocks/pattern.css");
+@import url("./blocks/form.css");
+@import url("./blocks/picture.css");

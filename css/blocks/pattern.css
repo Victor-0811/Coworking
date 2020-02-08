@@ -1,0 +1,14 @@
+.pattern {
+    background-image: url("../../images/comment/Rectangle 1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.667;
+
+}
+
+.pattern__text {
+    padding: 40px;
+}

@@ -1,0 +1,33 @@
+.socials__title {
+    font-weight: 300;
+}
+
+.socials__list {
+    display: flex;
+    margin: 5px 0 0;
+}
+
+.socials__item {
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin: 0;
+}
+
+
+.socials__link {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all;
+}
+
+.socials__link:hover {
+    background-color: #cb2376;
+}

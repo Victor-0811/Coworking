@@ -1,0 +1,21 @@
+.breadcrumbs__item {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+    color: #656464;
+    font-size: 14px;
+}

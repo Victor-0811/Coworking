@@ -1,0 +1,180 @@
+.content-list__item {
+    display: flex;
+    margin: 45px 0 0 0;
+}
+
+.content-list__block {
+    width: 20%;
+}
+
+.content-list__avatar {
+    border-radius: 50%;
+    width: 160px;
+    margin-top: 11px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.content-list__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-list__img--logo {
+    width: 100px;
+    height: 50px;
+}
+
+.content-list__avatar--logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    max-width: 160px;
+    min-height: 160px
+}
+
+.content-list__content {
+    width: 80%;
+}
+
+.content-list__date {
+    color: #6f6e6e;
+    font-size: 14px;
+}
+
+.content-list__subtitle {
+    font-weight: 700;
+    color: #262424;
+    margin: 5px 0 0;
+}
+
+.content-list__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #939292;
+    margin: 5px 0 0;
+}
+
+
+
+
+
+
+
+.content-list--vertical {
+    display: flex;
+    text-align: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.content-list--vertical .content-list__item {
+    display: flex;
+    flex-direction: column;
+    flex: 33.3333%;
+    margin-top: 11px;
+}
+
+.content-list--vertical .content-list__avatar {
+    border-radius: 5px;
+    position: relative;
+    width: 250px;
+}
+
+.content-list--vertical .content-list__avatar:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(43, 43, 64, 0.534);
+}
+
+.content-list--vertical .content-list__quantity {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 24px;
+    color: #85c8ed;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+.content-list--vertical .content-list__text {
+    font-size: 14px;
+    color: #9a9999;
+    padding: 7px;
+    margin: 0;
+}
+
+
+
+
+
+.block-list--tarifs .block-list__item {
+    width: 33.3333%;
+}
+
+.block-list--tarifs .block-list__shooot {
+    font-size: 16px;
+    color: #262424;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 5px 0 0;
+}
+
+
+.block-list--tarifs .block-list__text {
+    font-size: 14px;
+    color: #9a9999;
+    padding: 13px;
+    margin: 0;
+}
+
+.block-list__quantity {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 24px;
+    color: #85c8ed;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+
+.pink {
+    color: #cb2376;
+}
+
+.block-list--tarifs .block-list__icon {
+    width: 250px;
+    height: 150px;
+    background: none;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+.block-list--tarifs .block-list__icon:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(43, 43, 64, 0.534);
+}
+
+.block-list--tarifs .block-list__descr {
+    padding: 0 27px;
+}
+
+.block-list--tarifs .block-list__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

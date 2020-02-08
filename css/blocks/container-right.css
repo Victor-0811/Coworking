@@ -1,0 +1,7 @@
+.container-right {
+    flex: 82%;
+}
+
+.container-right--top {
+    padding: 10px 0 0;
+}
