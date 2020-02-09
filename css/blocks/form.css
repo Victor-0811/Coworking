@@ -6,13 +6,9 @@
 
 
 .form__block {
-    padding: 50px 70px;
+    padding: 62px 40px;
     background-color: #f4f4f4;
     font-size: 14px;
-}
-
-.form__title {
-    margin-bottom: 25px;
 }
 
 .form__row {
@@ -38,7 +34,7 @@
 
 .form__subtitle {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .form__subtitle--mg {
