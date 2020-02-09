@@ -1,5 +1,5 @@
 .partners {
-    padding: 14px 0px 42px;
+    padding: 14px 0px 65px;
 }
 
 .partners__block {
@@ -21,12 +21,12 @@
     padding-bottom: 36px;
 }
 
-.partners__list:first-child {
-    margin: 0;
+.partners__item--pdb {
+    padding-bottom: 0;
 }
 
-.partners__icon:nth-child(5) {
-    margin-right: 40px;
+.partners__list:first-child {
+    margin: 0;
 }
 
 .partners__img {

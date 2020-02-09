@@ -41,6 +41,10 @@
     margin-bottom: 10px;
 }
 
+.form__subtitle--mg {
+    margin-bottom: 0;
+}
+
 .form__input {
     width: 100%;
     outline: none;
@@ -75,9 +79,9 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    /* background-color: #cacaca; */
     position: relative;
     border: 1px solid #cb2376;
+    margin-right: 5px;
 }
 
 .form__radio-fake:before {
@@ -112,6 +116,8 @@
     color: #ffffff;
     border-radius: 3px;
     transition: .3s all;
+    text-transform: uppercase;
+    outline: none;
 }
 
 .btn:hover {
