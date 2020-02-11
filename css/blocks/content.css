@@ -1,12 +1,12 @@
 .content {
     display: flex;
-    padding: 50px 0;
+    padding: 15px 0;
 }
 
 .content--tarifs {
-    padding: 33px 0 0;
+    padding: 20px 0 0;
 }
 
 .content--comment {
-    padding: 27px 0 0;
+    padding: 20px 0 0;
 }

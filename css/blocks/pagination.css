@@ -1,10 +1,9 @@
 .pagination {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 15px 68px 50px 0;
     font-size: 14px;
     color: #656464;
-    margin: 30px 0 0;
 }
 
 .pagination__display {
@@ -51,12 +50,16 @@
     color: #262424;
 }
 
+.pagination__link:hover {
+    color: #962763;
+}
+
 .pagination__item--active {
     position: relative;
 }
 
 .pagination__item--active .pagination__link {
-    color: #ffff;
+    color: #962763;
 }
 
 .pagination__item--active:before {

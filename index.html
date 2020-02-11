@@ -18,13 +18,33 @@
 						<a class="main-logo" href="#">
 							<img class="main-logo__img" src="images/logo/logo.png" alt="Логотип" />
 						</a>
+						<nav class="nav">
+							<ul class="nav__list">
+								<li class="nav__item nav__item--active">
+									<a class="nav__link nav__link--main nav__link--hover" href="index.html">
+										Главная
+									</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link nav__link--feed nav__link--hover" href="comment.html">
+										Отзывы
+									</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link nav__link--wallet nav__link--hover" href="tarifs.html">
+										Тарифы
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<!--nav-->
 						<div class="contacts">
 							<a class="contacts__phone" href="tel:88000039210">8 (800) 00-392-10</a>
-							<div class="schedule">
-								<span class="schedule__item">График работы</span>
-								<div class="schedule__block">
-									<span class="schedule__text schedule__text--red">пн-вс: 09:00-20:00</span>
-									<span class="schedule__text">обед: 14:00-14:30</span>
+							<div class="dropdown">
+								<span class="dropdown__item">График работы</span>
+								<div class="dropdown__block">
+									<span class="dropdown__text dropdown__text--red">пн-вс: 09:00-20:00</span>
+									<span class="dropdown__text">обед: 14:00-14:30</span>
 								</div>
 							</div>
 						</div>
@@ -45,86 +65,49 @@
 
 					<div class="content">
 						<aside class="sidebar">
-							<nav class="nav">
-								<ul class="nav__list">
-									<li class="nav__item nav__item--active">
-										<a class="nav__link nav__link--main" href="index.html">
-											Главная
+							<div class="sidebar block-list__item block-list__item--border">
+								<h2 class="subtitle subtitle--mini">топ-тариф</h2>
+								<h5 class=" block-list__shooot">уникальность</h5>
+								<p class=" block-list__text">
+									Создан для вашего комфортного отдыха
+								</p>
+								<ul class=" block-list__catalog">
+									<li class=" block-list__enumeration">Кофе/чай</li>
+									<li class=" block-list__enumeration">Шкаф (5 кг)</li>
+									<li class=" block-list__enumeration">Рабочее место</li>
+								</ul>
+							</div>
+							<!-- block-list__item-->
+							<div class="socials">
+								<h3 class="socials__title">Наши социальные сети</h3>
+								<ul class="socials__list">
+									<li class="socials__item">
+										<a href="#" class="socials__link">
+											<img class="social__img" src="images/social/vk.png" alt="В контакте" />
 										</a>
 									</li>
-									<li class="nav__item">
-										<a class="nav__link nav__link--feed" href="comment.html">
-											Отзывы
+									<li class="socials__item">
+										<a href="#" class="socials__link">
+											<img class="social__img" src="images/social/fb.png" alt="фэйсбук" />
 										</a>
 									</li>
-									<li class="nav__item">
-										<a class="nav__link nav__link--wallet" href="tarifs.html">
-											Тарифы
+									<li class="socials__item">
+										<a href="#" class="socials__link">
+											<img class="social__img" src="images/social/twitter.png" alt="твитер" />
+										</a>
+									</li>
+									<li class="socials__item">
+										<a href="#" class="socials__link">
+											<img class="social__img" src="images/social/mail.png" alt="мэил" />
 										</a>
 									</li>
 								</ul>
-							</nav>
-							<!--nav-->
+							</div>
+							<!--socials-->
 						</aside>
 						<!--sidebar-->
 
 						<div class="container-right">
-							<section class="features">
-								<h2 class="subtitle">Особенности</h2>
-								<ul class=" block-list">
-									<li class=" block-list__item">
-										<div class=" block-list__icon">
-											<img class=" block-list__img" src="images/workadium/features/flower.png"
-												alt="Изображение" />
-										</div>
-										<h5 class=" block-list__shooot">уникальность</h5>
-										<p class=" block-list__text">
-											Создан для вашего комфортного отдыха
-										</p>
-										<ul class=" block-list__catalog">
-											<li class=" block-list__enumeration">Кофе/чай</li>
-											<li class=" block-list__enumeration">Шкаф (5 кг)</li>
-											<li class=" block-list__enumeration">Рабочее место</li>
-										</ul>
-									</li>
-									<!-- block-list__item-->
-									<li class=" block-list__item">
-										<div class=" block-list__icon">
-											<img class=" block-list__img"
-												src="images/workadium/features/mark-as-favorite-star.png"
-												alt="Изображение" />
-										</div>
-										<h5 class="block-list__shooot">премиум-класс</h5>
-										<p class="block-list__text">
-											Для любителей хороших впечатлений
-										</p>
-										<ul class="block-list__catalog">
-											<li class=" block-list__enumeration">Обед+кофе</li>
-											<li class=" block-list__enumeration">Шкаф (10 кг)</li>
-											<li class=" block-list__enumeration">Детское кресло</li>
-										</ul>
-									</li>
-									<!-- block-list__item-->
-									<li class=" block-list__item">
-										<div class="block-list__icon">
-											<img class=" block-list__img"
-												src="images/workadium/features/painter-palette.png" alt="Изображение" />
-										</div>
-										<h5 class="block-list__shooot">лакшери-стулья</h5>
-										<p class="block-list__text">
-											Всё самое лучшее и незабываемое
-										</p>
-										<ul class="block-list__catalog">
-											<li class=" block-list__enumeration">Джакузи</li>
-											<li class=" block-list__enumeration">Шкаф (15 кг)</li>
-											<li class=" block-list__enumeration">Табуретка</li>
-										</ul>
-									</li>
-									<!-- block-list__item-->
-								</ul>
-								<!--features__list-->
-							</section>
-							<!--features-->
 							<section class="news">
 								<h2 class="subtitle">Последние новости</h2>
 								<ul class="news__list content-list">
@@ -246,32 +229,6 @@
 						<a class="main-logo" href="#">
 							<img class="main-logo__img" src="images/logo/logo.png" alt="Логотип" />
 						</a>
-						<div class="socials">
-							<h3 class="socials__title">Наши социальные сети</h3>
-							<ul class="socials__list">
-								<li class="socials__item">
-									<a href="#" class="socials__link">
-										<img class="social__img" src="images/social/vk.png" alt="В контакте" />
-									</a>
-								</li>
-								<li class="socials__item">
-									<a href="#" class="socials__link">
-										<img class="social__img" src="images/social/fb.png" alt="фэйсбук" />
-									</a>
-								</li>
-								<li class="socials__item">
-									<a href="#" class="socials__link">
-										<img class="social__img" src="images/social/twitter.png" alt="твитер" />
-									</a>
-								</li>
-								<li class="socials__item">
-									<a href="#" class="socials__link">
-										<img class="social__img" src="images/social/mail.png" alt="мэил" />
-									</a>
-								</li>
-							</ul>
-						</div>
-						<!--socials-->
 					</div>
 					<!--footer__content-->
 				</div>
@@ -282,6 +239,9 @@
 		<!--wrapper__content-->
 	</div>
 	<!--wrapper-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/pixelScreen.js"></script>
 </body>
 
 </html>

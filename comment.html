@@ -20,11 +20,11 @@
 						</a>
 						<div class="contacts">
 							<a class="contacts__phone" href="tel:88000039210">8 (800) 00-392-10</a>
-							<div class="schedule">
-								<span class="schedule__item">График работы</span>
-								<div class="schedule__block">
-									<span class="schedule__text schedule__text--red">пн-вс: 09:00-20:00</span>
-									<span class="schedule__text">обед: 14:00-14:30</span>
+							<div class="dropdown">
+								<span class="dropdown__item">График работы</span>
+								<div class="dropdown__block">
+									<span class="dropdown__text dropdown__text--red">пн-вс: 09:00-20:00</span>
+									<span class="dropdown__text">обед: 14:00-14:30</span>
 								</div>
 							</div>
 						</div>
@@ -37,9 +37,50 @@
 				<div class="container">
 					<div class="content content--comment">
 						<aside class="sidebar">
+							<section class="pattern">
+								<div class="pattern__text">
+									<p>
+										Для наших новых клиентов мы предлагаем <span class="pink">скидку 50%</span> на
+										первый
+										день!
+										Приходите, чтобы лично оценить
+										преимущества коворкинга «Воркадиум»!
+									</p>
+								</div>
+							</section>
+							<div class="socials">
+								<h3 class="socials__title">Наши социальные сети</h3>
+								<ul class="socials__list">
+									<li class="socials__item">
+										<a href="#" class="socials__link">
+											<img class="social__img" src="images/social/vk.png" alt="В контакте" />
+										</a>
+									</li>
+									<li class="socials__item">
+										<a href="#" class="socials__link">
+											<img class="social__img" src="images/social/fb.png" alt="фэйсбук" />
+										</a>
+									</li>
+									<li class="socials__item">
+										<a href="#" class="socials__link">
+											<img class="social__img" src="images/social/twitter.png" alt="твитер" />
+										</a>
+									</li>
+									<li class="socials__item">
+										<a href="#" class="socials__link">
+											<img class="social__img" src="images/social/mail.png" alt="мэил" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!--socials-->
+						</aside>
+						<!--sidebar-->
+
+						<div class="container-right container-right--top">
 							<nav class="nav">
 								<ul class="nav__list">
-									<li class="nav__item">
+									<li class="nav__item nav__item--mr">
 										<a class="nav__link nav__link--main" href="index.html">
 											Главная
 										</a>
@@ -50,35 +91,18 @@
 										</a>
 									</li>
 									<li class="nav__item">
-										<a class="nav__link nav__link--wallet" href="tarifs.html">
+										<a class="nav__link nav__link--wallet--color" href="tarifs.html">
 											Тарифы
 										</a>
 									</li>
 								</ul>
 							</nav>
 							<!--nav-->
-						</aside>
-						<!--sidebar-->
 
-						<div class="container-right container-right--top">
-							<section class="breadcrumbs">
-								<div class="breadcrumbs__content">
-									<ul class="breadcrumbs__list">
-										<li class="breadcrumbs__item">
-											<a href="#" class=" schedule__item schedule__item--red">Главная </a>
-										</li>
-										<li class="breadcrumbs__item breadcrumbs__item--active">
-											<a href="#" class="breadcrumbs__link">Отзывы</a>
-										</li>
-									</ul>
-								</div>
-							</section>
-							<!--breadcrumbs-->
-
-							<section class="news news--comment">
+							<section class="news">
 								<h2 class="subtitle">Отзывы</h2>
 								<ul class="content-list">
-									<li class="content-list__item">
+									<li class="content-list__item content-list__item--margin">
 										<div class="content-list__block">
 											<div class="content-list__avatar">
 												<img class="content-list__img" src="images/comment/avatar/avatar1.png"
@@ -100,7 +124,7 @@
 										</div>
 									</li>
 									<!--content-list__item-->
-									<li class="content-list__item">
+									<li class="content-list__item content-list__item--margin">
 										<div class="content-list__block">
 											<div class="content-list__avatar">
 												<img class="content-list__img" src="images/comment/avatar/avatar2.png"
@@ -150,7 +174,7 @@
 										</div>
 									</li>
 									<!--content-list__item-->
-									<li class="content-list__item">
+									<li class="content-list__item content-list__item--margin">
 										<div class="content-list__block">
 											<div class="content-list__avatar">
 												<img class="content-list__img" src="images/comment/avatar/avatar3.jpg"
@@ -218,21 +242,6 @@
 					<!--content-->
 				</div>
 				<!--container-->
-
-				<section class="pattern">
-					<div class="container container--min">
-						<div class="pattern__text">
-							<p>
-								Для наших новых клиентов мы предлагаем <span class="pink">скидку 50%</span> на
-								первый
-								день!
-								Приходите, чтобы лично оценить
-								преимущества коворкинга «Воркадиум»!
-							</p>
-						</div>
-					</div>
-				</section>
-				<!--pattern-->
 			</main>
 			<!--main-->
 
@@ -295,32 +304,6 @@
 						<a class="main-logo" href="#">
 							<img class="main-logo__img" src="images/logo/logo.png" alt="Логотип" />
 						</a>
-						<div class="socials">
-							<h3 class="socials__title">Наши социальные сети</h3>
-							<ul class="socials__list">
-								<li class="socials__item">
-									<a href="#" class="socials__link">
-										<img class="social__img" src="images/social/vk.png" alt="В контакте" />
-									</a>
-								</li>
-								<li class="socials__item">
-									<a href="#" class="socials__link">
-										<img class="social__img" src="images/social/fb.png" alt="фэйсбук" />
-									</a>
-								</li>
-								<li class="socials__item">
-									<a href="#" class="socials__link">
-										<img class="social__img" src="images/social/twitter.png" alt="твитер" />
-									</a>
-								</li>
-								<li class="socials__item">
-									<a href="#" class="socials__link">
-										<img class="social__img" src="images/social/mail.png" alt="мэил" />
-									</a>
-								</li>
-							</ul>
-						</div>
-						<!--socials-->
 					</div>
 					<!--footer__content-->
 				</div>

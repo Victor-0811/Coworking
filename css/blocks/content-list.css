@@ -1,16 +1,23 @@
 .content-list__item {
     display: flex;
-    margin: 45px 0 0 0;
+    margin: 53px 0 0 0;
+}
+
+.content-list__item--margin {
+    margin: 15px 0 0 0;
 }
 
 .content-list__block {
-    width: 20%;
+    flex: 22%;
+}
+
+.content-list__block:last-child {
+    margin-right: 0;
 }
 
 .content-list__avatar {
     border-radius: 50%;
     width: 160px;
-    margin-top: 11px;
     overflow: hidden;
     display: inline-block;
 }
@@ -36,7 +43,7 @@
 }
 
 .content-list__content {
-    width: 80%;
+    flex: 80%;
 }
 
 .content-list__date {

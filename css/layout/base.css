@@ -75,3 +75,10 @@ img {
     letter-spacing: 3px;
     font-weight: bold;
 }
+
+.subtitle--mini {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}

@@ -1,33 +1,23 @@
+.socials {
+    text-align: center;
+    margin-top: 20px;
+}
+
 .socials__title {
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .socials__list {
     display: flex;
-    margin: 5px 0 0;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .socials__item {
-    margin-right: 10px;
+    margin-right: 18px;
 }
 
 .socials__item:last-child {
     margin: 0;
-}
-
-
-.socials__link {
-    display: block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: .3s all;
-}
-
-.socials__link:hover {
-    background-color: #cb2376;
 }
