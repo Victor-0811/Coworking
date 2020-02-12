@@ -1,5 +1,5 @@
 nav {
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 .nav__list {
@@ -128,10 +128,10 @@ nav {
     height: 18px;
 }
 
-
 .nav__link--wallet--color:hover:before {
     background-position: -90px -46px;
 }
+
 
 .nav__item--active .nav__link--main:before {
     background: url('../../images/icon/css_sprites.png') -47px -86px;
@@ -141,7 +141,7 @@ nav {
     background: url('../../images/icon/css_sprites.png') -10px -10px;
 }
 
-.nav__item--active .nav__link--wallet:before {
+.nav__item--active .nav__link--wallet--color:before {
     background: url('../../images/icon/css_sprites.png') -90px -46px;
 }
 

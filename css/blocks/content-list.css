@@ -1,10 +1,17 @@
 .content-list__item {
     display: flex;
     margin: 53px 0 0 0;
+    border-bottom: 1px solid #e8dfdf;
+    padding-bottom: 30px;
+}
+
+.content-list__item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 .content-list__item--margin {
-    margin: 15px 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 .content-list__block {
@@ -75,13 +82,19 @@
     text-align: center;
     flex: 1;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 .content-list--vertical .content-list__item {
     display: flex;
     flex-direction: column;
     flex: 33.3333%;
-    margin-top: 11px;
+    border-bottom: none;
+    margin-top: 30px;
+}
+
+.content-list--vertical .content-list__item--mt {
+    margin-top: 60px;
 }
 
 .content-list--vertical .content-list__avatar {

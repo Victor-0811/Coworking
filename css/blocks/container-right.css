@@ -1,7 +1,8 @@
 .container-right {
     flex: 82%;
+    padding-left: 25px;
 }
 
-.container-right--top {
-    padding-left: 15px;
-}
+/* .container-right--top {
+    padding: 0 0 50px 15px;
+} */

@@ -1,0 +1,18 @@
+.intro__bg {
+    background-image: url("../../images/intro/intro.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro__block {
+    align-items: center;
+}
+
+.logo {
+    margin-left: 8px;
+}
