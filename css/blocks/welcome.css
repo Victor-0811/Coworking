@@ -1,0 +1,33 @@
+.welcome__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: screw .5s;
+}
+
+@keyframes screw {
+    0% {
+        opacity: 0;
+        transform: scale(.2) rotate(-30deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
+
+    60% {
+        transform: rotate(7deg);
+    }
+
+    80% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.welcome__logo {
+    z-index: 99;
+}

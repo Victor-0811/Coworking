@@ -1,7 +1,6 @@
      .block-list {
          display: flex;
          flex-direction: column;
-         /* text-align: center; */
          margin: 37px 0 0;
          width: 85%;
      }

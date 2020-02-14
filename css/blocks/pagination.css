@@ -50,10 +50,6 @@
     color: #262424;
 }
 
-.pagination__link:hover {
-    color: #962763;
-}
-
 .pagination__item--active {
     position: relative;
 }
@@ -69,11 +65,33 @@
     height: 25px;
     border-radius: 5px;
     background-color: #2b2b40;
-    color: #ffffff;
     z-index: -1;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.pagination__item {
+    position: relative;
+    transition: .4s;
+}
+
+.pagination__item:hover:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #2b2b40;
+    color: #962763;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pagination__item:hover .pagination__link {
+    color: #962763;
 }
 
 .pagination--comment {

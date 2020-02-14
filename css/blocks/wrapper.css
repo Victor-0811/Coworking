@@ -1,0 +1,30 @@
+.wrapper {
+    overflow: hidden;
+    min-width: 110px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__content {
+    flex: 1;
+}
+
+.wrapper__bg {
+    background: url("../../images/intro/intro.jpg") center center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.wrapper__bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(236, 30, 123, 0.158);
+}

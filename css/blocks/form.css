@@ -96,8 +96,12 @@
     display: none;
 }
 
-.form__radio:checked+.form__radio-fake:before {
+.form__radio:checked~.form__radio-fake:before {
     background-color: #cb2376;
+    color: #cb2376;
+}
+
+.form__radio:checked~.form__subtitle {
     color: #cb2376;
 }
 
