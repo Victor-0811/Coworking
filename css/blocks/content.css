@@ -10,3 +10,8 @@
 .content--comment {
     padding: 20px 0 0;
 }
+
+.content__left-block {
+    flex: 25%;
+    padding: 0 0 0 10px;
+}
